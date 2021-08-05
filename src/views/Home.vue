@@ -2,7 +2,7 @@
   <div class="home">
     <Header/>
     <Hero/>
-    <Product/>
+    <Products/>
     <Insta/>
     <Partner/>
     <Footer/>
@@ -13,7 +13,7 @@
 // @ is an alias to /src
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
-import Product from '@/components/Product.vue';
+import Products from '@/components/Products.vue';
 import Insta from '@/components/Insta.vue';
 import Partner from '@/components/Partner.vue';
 import Footer from '@/components/Footer.vue';
@@ -23,7 +23,7 @@ export default {
   components: {
     Header,
     Hero,
-    Product,
+    Products,
     Insta,
     Partner,
     Footer
