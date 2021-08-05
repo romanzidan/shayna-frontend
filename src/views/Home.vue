@@ -3,6 +3,7 @@
     <Header/>
     <Hero/>
     <Product/>
+    <Insta/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Product from '@/components/Product.vue';
+import Insta from '@/components/Insta.vue';
 
 export default {
   name: 'Home',
   components: {
     Header,
     Hero,
-    Product
+    Product,
+    Insta
   }
 }
 </script>
