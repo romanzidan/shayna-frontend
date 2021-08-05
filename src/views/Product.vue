@@ -85,7 +85,7 @@
         </section>
         <!-- Product Shop Section End -->
 
-        <Related/>
+        <RelatedProduct/>
 
         <Footer />
     </div>
@@ -97,7 +97,7 @@
 
     import Header from '@/components/Header.vue';
     import Footer from '@/components/Footer.vue';
-    import Related from '@/components/Related.vue';
+    import RelatedProduct from '@/components/RelatedProduct.vue';
 
     export default {
         name: 'Product',
@@ -105,7 +105,7 @@
             Header,
             Footer,
             carousel,
-            Related
+            RelatedProduct
         },
         data(){
             return {
