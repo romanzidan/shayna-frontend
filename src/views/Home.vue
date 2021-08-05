@@ -4,6 +4,8 @@
     <Hero/>
     <Product/>
     <Insta/>
+    <Partner/>
+    <Footer/>
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Product from '@/components/Product.vue';
 import Insta from '@/components/Insta.vue';
+import Partner from '@/components/Partner.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'Home',
@@ -20,7 +24,9 @@ export default {
     Header,
     Hero,
     Product,
-    Insta
+    Insta,
+    Partner,
+    Footer
   }
 }
 </script>
